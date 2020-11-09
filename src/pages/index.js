@@ -1,22 +1,35 @@
-import React from "react"
-import { Link } from "gatsby"
+import React, {useRef, useEffect, useState} from "react"
+import Nav from '../components/navigation'
+import PageNum from '../components/page-num'
+import  Section from '../components/section'
+import Banner from '../components/banner'
+import UpperMain from '../components/upper-main'
+import MidMain from '../components/mid-main'
+import LowerMain from '../components/lower-main'
+import Footer from '../components/footer'
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
-)
+import { TweenMax, TimelineMax, gsap } from "gsap";
+import { CSSPlugin } from 'gsap/CSSPlugin'
+
+import {faTwitter, faInstagram, faFacebook, faGoodreads } from '@fortawesome/fontawesome-free-brands'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
+
+//images
+
+const IndexPage = (props) =>{
+
+  return(
+    <>
+      <Nav/>
+      <Banner isFront={true} />
+      <UpperMain/>
+      <MidMain/>
+      <LowerMain/>
+      <Footer/>
+    </>
+  )
+}
 
 export default IndexPage

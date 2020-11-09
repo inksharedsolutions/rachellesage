@@ -1,0 +1,386 @@
+
+@media only screen and (max-width: 1450px) {
+    .navigation{
+        padding: 0 10%;
+    }
+
+    .banner-img{
+        &:before{
+            right: 6vw;
+        }
+    }
+
+    .banner-content-wrapper{
+        p{
+           font-size: 17px;
+        }
+
+        h1{
+            span{
+                &:nth-child(1){
+                    font-size: 25px !important;
+                }
+                &:nth-child(4){
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1250px) {
+
+
+    .banner-content-wrapper{
+        h1{
+            font-size: 3vw;
+        }
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .details {
+        h1{
+            font-size: 3em;
+        }
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    #non-active-hamburger{
+        display: flex;
+    }
+
+    .page-section{
+        grid-template-columns: 5% 1fr 5%;
+    } 
+
+
+    .span-tag-review{
+        text-align: center;
+    }
+
+    .svg-bg,.svg-bg-author,.svg-bg-books{
+        display: none;
+    }
+
+    .wrapper-ds{
+        align-items: center;
+    }
+
+    .button-arrows{
+        left: 64%;
+    }
+
+    .active-nav{
+        width: 100%;
+        ul{
+            margin: 0 5em;
+        }
+    }
+
+    .navigation{
+        ul{
+            display: none;
+        }
+
+        h1{
+            &:nth-child(2){
+                text-align: center;
+                font-size: 13px;
+                letter-spacing: 1px;
+                color: #ffffff4a;
+            }
+        }
+    }
+
+    .navlist-footer-column,
+    .lowr-footer-container{
+        width: 100% !important;
+        margin: 0 auto !important;
+        p{
+            width: 100% !important;
+        }
+    }
+    
+    .logo-footer-container{
+        text-align: center;
+    }
+
+    .lower-nav-footer{
+        text-align: center;
+        &:before{
+            display: none !important;
+        }
+        a{
+            margin: 0 16px;
+            margin-right:0px;
+        }
+    }
+
+    #style_soc_medias {
+        
+        text-align: center !important;
+        a{
+            padding: 0 12px;
+            color: #eee;  
+        }
+    }
+
+    .footer-copyright{
+        text-align: center;
+        display: block;
+    }
+
+    #privacy-policy-content, 
+    #terms-and-conditions-content{
+        margin: 7em 2em;
+    }
+
+    #book-containers{
+        margin: 0 3em;
+    }
+
+    .footer-nav-list{
+        li{
+            background: #4c4a4a;
+            border-radius: 2px;
+            padding: 1em !important;
+            margin-bottom: 9px;
+            text-align: center;
+            display: block !important;
+        }
+    }
+
+    .bookImgContainer{
+        img{
+            width: 100%;
+        }
+    }
+
+    .navigation-list{
+        left: 11%;
+    }
+
+    .banner-img{
+        display: none;
+        &:before{
+            
+        }
+    }
+
+    #banner-layout-responsive{
+        height: 80vh;
+    }
+
+    .wrapper-auth-content {
+        button{
+            margin: 2em auto;
+        }
+    }
+
+    #author-container{
+        height: auto;
+        margin: 6em 4em;
+        text-align: center;
+    }
+
+    .banner-content-wrapper{
+      text-align: center;
+      h1{
+          &:after{
+              margin:0 auto;
+          }
+      }
+    }
+
+    .grid-two-columns{
+        grid-template-columns: auto;
+    }
+    
+}
+
+@media only screen and (max-width: 650px) {
+
+    .slick-initialized .slick-slide h3{
+        font-size: 1em;
+    }
+
+    .book-wrapper-slider{
+        span{
+            font-size: 12px;
+        }
+    }
+
+    .slick-slide img{
+        display: block;
+        width: 80%;
+    }
+
+    .two-grid-column{
+        display: block;
+    }
+    .footer-section{
+        padding: 19% 0;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+
+    .heading-quote{
+        padding: 0 20px;
+    }
+
+    .contentBook{
+        h1{
+            font-size: 2rem;
+        }
+        span{
+            margin: 1em 0;
+            font-size: 1em;
+        }
+    }
+    .booklinkBlocks {
+        li{
+            padding: 13px 4px;
+            background: #b29e46;
+            margin-bottom: 6px;
+            display: block;
+            margin-bottom: 0.6em;
+        }
+    }
+
+    .active-nav{
+        li{
+            font-size: 1.6em !important;
+        }
+    }
+
+    .details{
+        padding:0 !important;
+        h1{
+            font-size: 3em;
+        }
+        p{
+            width: 95%;  
+        }
+    }
+
+    .button-arrows{
+        left: 52%;
+        top: 90%;
+    }
+    
+    .navigation-list{
+        display: none;
+    }
+
+    .button-arrows{
+        .arrow-left,
+        .arrow-right{
+            padding: 0.5em 1.1em !important; 
+        }
+    }
+
+    #page-num {
+        top: 80% !important;
+        li{
+            height: 24px !important;
+        }
+    }
+
+    .trademark-heading{
+        p{
+            text-align: center;
+            margin: 2em 0;
+        }
+    }
+
+    .heading-wraps {
+        span{
+            &::nth-child(1){
+                transform: translateY(-18px);
+            }
+        }
+    }
+
+    .wrapper-auth-content {
+        h1{
+            font-size: 2em;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .banner-content-wrapper {
+        h1{
+            font-size: 2em;
+            span{
+                
+                &:nth-child(4){
+                    font-size: 15px;
+                    margin: 12px 0;
+                }
+
+                &:nth-child(4){
+                    line-height: 1.5;
+                }
+            }
+        }
+
+        p{
+            font-size: 13px;
+        }
+
+        .span-tag-review{
+            margin: 0 1em;
+        }
+    }
+
+    .web-banner {
+        h1{
+           font-size: 2.6em;
+        }
+
+        span{
+            letter-spacing: 0.4em;
+        }
+    }
+
+    .letter-sf-first{
+        font-size: 1.4em !important;
+    }
+
+    .slick-slider{
+        margin: 0 20px;
+    }
+
+    #author-container{
+        margin: 6em 2em;
+    }
+
+    .details{
+        h1{
+            font-size: 2em;
+        }
+    }
+
+    #footer-info p{
+        max-width: 300px;
+    }
+
+    .active-nav{
+        ul{
+            margin: 0 1em;
+        }
+    }
+
+    .close-mark{
+        right: 15px !important;
+    }
+}
+

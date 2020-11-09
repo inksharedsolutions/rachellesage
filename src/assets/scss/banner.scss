@@ -1,0 +1,138 @@
+.banner-content-wrapper{
+    h1{
+        font-weight: bold;
+        font-size: 3.5vw;
+        color: #000 !important;
+        span{
+            color: #fff !important;
+            display: block;
+
+            &:nth-child(1){
+                font-family: 'Crimson Text', serif;
+                font-size: 47px;
+                text-transform: capitalize;
+                font-style: italic;
+                color: #d28534 !important;
+            }
+            &:nth-child(4){
+                font-size: 20px;
+                display: block;
+                margin: 33px 0;
+                letter-spacing: 5px;
+            }
+        }
+
+        // &:after{
+        //     content: '';
+        //     width: 193px;
+        //     background: #d6a26c;
+        //     position: relative;
+        //     display: block;
+        //     height: 5px;
+        //     margin: 3px 0;
+        // }
+    }
+
+    p{
+        &:before{
+            content: '';
+            width: 3px;
+            background: #d6a26c;
+            position: relative;
+            display: inline-block;
+            height: 27px;
+            margin: 16px 13px;
+            transform: translateY(24px);
+        }
+    }
+
+    .span-tag-review{
+        
+        display: block;
+        font-size: 16px;
+        margin: 0 0 0 23%;
+        text-transform: capitalize;
+        font-family: 'Crimson Text', serif;
+        font-style: italic;
+        color: #f5ededee !important;
+        text-align: left;
+
+        &:before{
+            content: '';
+            width: 51px;
+            background: #f5ededee;
+            position: relative;
+            display: inline-block;
+            height: 1px;
+            margin: 13px 13px;
+            transform: translateY(9px);
+        }
+    }
+
+    button{
+        margin-top: 3%;
+    }
+}
+
+.banner-section{
+    background: #1f1f1e;
+    height: 80vh;
+
+    background-image: url("../../../static/banner/banner.png");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-img{
+    text-align: center;
+    img{
+        width: 378px;
+        max-width: 100%;
+        transform: translateY(-1px);
+        position: relative;
+        z-index: 10;
+    }
+
+    &:before{
+        content: '';
+        width: 406px;
+        background: #2a2a2a;
+        position: absolute;
+        display: block;
+        height: 93vh;
+        margin: 0px AUTO;
+        right: 15vw;
+        top: 0;
+        z-index: 1;
+        
+    }
+}
+
+.letter-sf-first{
+    font-family: 'Marck Script', cursive;
+    display: inline-block !important;
+    font-size: 2.4em !important;
+    color: #f39a3e !important;
+    &:before{
+        content: '';
+    }
+}
+
+
+@keyframes bounce {
+    0% {
+      top: 0px;
+
+    }
+    50% {
+      top: 20px;
+
+    }
+    100% {
+      top: 0px;
+    }
+  }
