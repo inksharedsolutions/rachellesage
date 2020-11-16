@@ -1,8 +1,5 @@
 import React from 'react'
 import Book1 from '../../static/img/book_cover.png'
-import Book2 from '../../static/img/book_cover_2.png'
-import Book3 from '../../static/img/book_cover_3.png'
-import Book4 from '../../static/img/book_cover_4.png'
 
 import { DiscussionEmbed } from "disqus-react"
 import Layout from '../components/layout'
@@ -14,7 +11,7 @@ const AboutTheBook= (props) =>{
 
 	const slug =(props.location.href);
 	const disqusConfig = {
-	  shortname: 'rachel-lesage',
+	  shortname: 'rachel-lesage-1',
 	  config: { identifier:  12, slug}
 	}
 
@@ -49,7 +46,7 @@ const AboutTheBook= (props) =>{
 								imgSrc: Book1,
 								id:'susies_submisision',
 								content:
-								`Cali Thomas has been alone her whole life. She's never had parents but has been to just about every foster home in the state. By a chance of fate, Cali discovers that she is very talented at placekicking for her high school football team and gets signed to play for Carrington State University. Between sharing a dorm with nine other boys, having to change in a closet, and keeping up an academic scholarship, Cali has her hands full. Fortunately, she meets Jason Pitt, a quarterback protégé who somehow manages to keep up with her. Together, they venture through Cali's first year of adulthood and take their team right to the edge of success.`,
+								`Rachel LeSage is a new author from Bourbonnais, IL. She first began writing when she was twelve and hasn’t stopped since. She spent four years of her undergrad at Northern Illinois University, where she studied French and Spanish. Upon her completion of her bachelor’s degrees, she attended Olivet Nazarene University for a professional degree in business. She currently works full-time as a saleswoman for a tech company. She likes to knit, jog, and listen to podcasts. Writing will always be her first love. `,
 
 								ebooks:{
 									stratton : 'https://www.stratton-press.com/books/like-a-lady/',

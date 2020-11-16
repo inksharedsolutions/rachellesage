@@ -11,7 +11,7 @@ const Footer = ()=>{
                 <div className="container-gt" id="footer-info">
                     <h1>RL.</h1>
                     <p>
-                       Rachel Lesage loves to hear from readers. You can reach her via email. 
+                       Rachel LeSage loves to hear from readers. You can reach her via email. 
                         Feel free to send questions about writing, her works, interviews 
                         and other publicity matters.
                     </p> 

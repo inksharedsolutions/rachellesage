@@ -2,7 +2,7 @@ import React from 'react'
 import Banner from '../components/banner'
 import '../assets/scss/pages.scss'
 import Layout from '../components/layout'
-import AuthorImg from '../../static/img/dummy.png'
+import AuthorImg from '../../static/img/author_image.jpg'
 
  const AboutTheAuthor = (props)=>{
 
@@ -43,7 +43,7 @@ import AuthorImg from '../../static/img/dummy.png'
                             <p>
                                 <span className="author-name">
                                     <span className="author-span-ft">Author |  Writer </span>
-                                    Rachel Lesage
+                                    Rachel LeSage
                                 </span>
                             </p>
                             

@@ -78,7 +78,7 @@
     background: #1f1f1e;
     height: 80vh;
 
-    background-image: url("../../../static/banner/banner.png");
+    background-image: url("../../../static/banner/banner2.png");
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -90,26 +90,27 @@
 .banner-img{
     text-align: center;
     img{
-        width: 378px;
+        width: 878px;
+        height: 250px;
         max-width: 100%;
         transform: translateY(-1px);
         position: relative;
         z-index: 10;
     }
 
-    &:before{
-        content: '';
-        width: 406px;
-        background: #2a2a2a;
-        position: absolute;
-        display: block;
-        height: 93vh;
-        margin: 0px AUTO;
-        right: 15vw;
-        top: 0;
-        z-index: 1;
+    // &:before{
+    //     content: '';
+    //     width: 406px;
+    //     background: #2a2a2a;
+    //     position: absolute;
+    //     display: block;
+    //     height: 93vh;
+    //     margin: 0px AUTO;
+    //     right: 15vw;
+    //     top: 0;
+    //     z-index: 1;
         
-    }
+    // }
 }
 
 .letter-sf-first{

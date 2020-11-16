@@ -5,9 +5,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import Book1 from '../../static/img/book_cover.png'
-import Book2 from '../../static/img/book_cover_2.png'
-import Book3 from '../../static/img/book_cover_3.png'
-import Book4 from '../../static/img/book_cover_4.png'
 
 
 const UpperMain =()=>{
@@ -46,7 +43,7 @@ const UpperMain =()=>{
                         <h1>Books</h1>
                         
                         <p className="middle-params">
-                            Sometimes, fiction isn't a far cry from reality.
+                            
                         </p>
                     </div>
 

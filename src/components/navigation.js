@@ -64,7 +64,9 @@ const Nav = (props) =>{
 				</ul>
 
 				<h1>
-					Rachel Lesage.
+					<Link to="/">
+						Rachel LeSage.
+					</Link>
 				</h1>
 
 				<ul id="">
@@ -106,10 +108,26 @@ const Nav = (props) =>{
 						Navigations.
 					</p>
 
-					{
-						Listed
-					}
-
+					<li>
+						<Link to="/">
+							 Home
+						</Link>
+					</li>
+					<li>
+						<Link to="/about-the-book">
+							About The Book
+						</Link>
+					</li>
+					<li>
+						<Link to="/about-the-author">
+							 About The Author
+						</Link>
+					</li>
+					<li>
+						<Link to="/contact">
+							 Contact
+						</Link>
+					</li>
 				</ul>
 			</section> 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import AuthorImg from '../../static/img/dummy.png'
+import AuthorImg from '../../static/img/author_image.jpg'
 
 const LowerMain = ()=>{
     return(
@@ -17,7 +17,7 @@ const LowerMain = ()=>{
                             Rachel LeSage is a new author from Bourbonnais, IL. She first began writing when she was twelve and hasn’t stopped since. She spent four years of her undergrad at Northern Illinois University, where she studied French and Spanish.
                             </p>
 
-                            <h1>Rachel Lesage</h1>
+                            <h1>Rachel LeSage</h1>
 
                             <span className="span-tagline">Author & Writer</span>
 

@@ -14,7 +14,6 @@ const Banner = (props) =>{
                     <section className="banner-section">
                         <div className="container-gt">
                             <div className="grid-two-columns" id="banner-layout-responsive">
-                                
                                 <div className="left-col">
                                     <div className="banner-content-wrapper">
                                         <h1>
@@ -28,7 +27,7 @@ const Banner = (props) =>{
                                             Fun to read, great sport story!
                                             
                                             <span className="span-tag-review">
-                                                Rachel Lesage
+                                                Rachel LeSage
                                             </span>
                                         </p>
                                         <button>
