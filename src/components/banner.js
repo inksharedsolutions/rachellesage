@@ -23,15 +23,13 @@ const Banner = (props) =>{
                                             <span>“A one-in-a-million shot at everything”.</span>
                                         </h1>
                                         <p>
-
-                                            Fun to read, great sport story!
                                             
                                             <span className="span-tag-review">
                                                 Rachel LeSage
                                             </span>
                                         </p>
                                         <button>
-                                            <Link to="/about-the-book#beliefs">
+                                            <Link to="/about-the-book">
                                                 Read More
                                             </Link>
                                         </button>
